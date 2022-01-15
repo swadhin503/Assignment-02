@@ -36,6 +36,10 @@ header-container {
 .image-part img {
   width: 70%;
 }
+.image-part img:hover{
+  width: 80%;
+  
+}
 /*------------------------ Main Part Styles---------------------------------- */
 main {
   margin-top: 40px;
