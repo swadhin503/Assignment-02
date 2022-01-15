@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&family=Roboto:wght@500&family=Spline+Sans:wght@400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*------------------ Header Styles----------------------------------- */
+.full-part{
+   display:flex;
+   justify-content:space-between;
+}
+.first-title{
+    margin-left: 100px;
+    margin-top:30px;
+}
+.title-part{
+    width: 30%;
+    margin-left: 100px;
+}
+.title-part p{
+    margin-bottom:30px;
+}
+.title-part a{
+    text-decoration:none;
+    padding: 10px 24px;
+    color: white;
+    background-color: #E02C6D
+    ;
+    border-radius: 41px;
+}
+.image-part{
+    margin-right: 100px;
+}
+.image-part img{
+    width:70%;
+}
+/*------------------------ Main Part Styles---------------------------------- */
+.star-rating{
+    display: flex;
+    flex-direction: row;
+}
+.fa-star{
+    color: goldenrod;
+    font-size: 14px;
+}
