@@ -1,44 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&family=Roboto:wght@500&family=Spline+Sans:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&family=Roboto:wght@500&family=Spline+Sans:wght@400;500&display=swap");
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 /*------------------ Header Styles----------------------------------- */
-.full-part{
-   display:flex;
-   justify-content:space-between;
+header-container {
+  margin-bottom: 40px;
 }
-.first-title{
-    margin-left: 100px;
-    margin-top:30px;
+.full-part {
+  display: flex;
+  justify-content: space-between;
 }
-.title-part{
-    width: 30%;
-    margin-left: 100px;
+.first-title {
+  margin-left: 100px;
+  margin-top: 30px;
 }
-.title-part p{
-    margin-bottom:30px;
+.title-part {
+  width: 30%;
+  margin-left: 100px;
 }
-.title-part a{
-    text-decoration:none;
-    padding: 10px 24px;
-    color: white;
-    background-color: #E02C6D
-    ;
-    border-radius: 41px;
+.title-part p {
+  margin-bottom: 30px;
 }
-.image-part{
-    margin-right: 100px;
+.title-part a {
+  text-decoration: none;
+  padding: 10px 24px;
+  color: white;
+  background-color: #e02c6d;
+  border-radius: 41px;
 }
-.image-part img{
-    width:70%;
+.image-part {
+  margin-right: 100px;
+}
+.image-part img {
+  width: 70%;
 }
 /*------------------------ Main Part Styles---------------------------------- */
-.star-rating{
-    display: flex;
-    flex-direction: row;
+main {
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
-.fa-star{
-    color: goldenrod;
-    font-size: 14px;
+.container {
+  margin-left: 160px;
+  margin-right: 100px;
+}
+.product-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  padding: 10px;
+  border: 1px solid white;
+  box-shadow: 4px 8px 8px 8px #aaaaaa;
+  width: 75%;
+  margin-bottom: 80px;
+}
+.card img,
+h2,
+h3,
+p,
+.star-rating {
+  margin-left: 20px;
+}
+.card img {
+  margin-top: 10px;
+  width: 250px;
+  height: auto;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row;
+}
+.star {
+  margin-right: 20px;
+}
+.fa-star {
+  color: #fb8200;
+  font-size: 14px;
+}
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+  color: #e02c6d;
+  margin-top: -50px;
+  text-decoration: none;
+}
+/* ------------------------------------Extra Part--------------------------- */
+
+.form h2 {
+  text-align: center;
+  font-size: 43px;
+  color: #3e3d3b;
+  padding: 17px;
+}
+.contact {
+  text-align: center;
+  margin-top: -36px;
+  padding: 30px;
+  background-color: rgb(94, 183, 243);
+}
+.contact input {
+  padding: 6px 10px;
+  margin: 4px 0px;
+  width: 300px;
+  border-radius: 3px;
+  border: none;
+}
+#subBtn{
+  padding: 10px 40px;
+  background-color:blue;
+  border: none;
+  border-radius: 3px;
+  color: #f0f7f8;
+}
+
+/*----------------------------------------------- Last Part----------------------------------- */
+footer {
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  text-align: center;
+}
+footer span i {
+  padding: 10px;
 }
