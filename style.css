@@ -21,6 +21,7 @@ header-container {
 }
 .title-part p {
   margin-bottom: 30px;
+  margin-left: -3px;
 }
 .title-part a {
   text-decoration: none;
@@ -127,4 +128,37 @@ footer {
 }
 footer span i {
   padding: 10px;
+}
+
+@media only screen and (max-width:688px){
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: -60px;
+  }
+  .card img{
+    width: 100px;
+  }
+}
+@media only screen and (min-width:689px) and (max-width:991px){
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: -60px;
+  }
+  .card img{
+    width: 100px;
+  }
+}
+@media only screen and (max-width:688px){
+ .full-part{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+ }
+ .full-part img{
+   margin-left: 50px;
+ }
+ .product-title{
+   margin-left: -60px;
+ }
 }
